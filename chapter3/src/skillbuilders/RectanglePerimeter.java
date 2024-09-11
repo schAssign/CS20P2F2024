@@ -14,6 +14,8 @@ public class RectanglePerimeter {
 		System.out.print("Please enter a width value: ");
 		int width = userInput.nextInt();
 		
+		userInput.close();
+		
 		int perimeter = (2*length) + (2*width);
 		System.out.println("The rectangle has a perimeter of " + perimeter + " units");
 
