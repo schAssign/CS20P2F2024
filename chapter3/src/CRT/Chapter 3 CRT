@@ -1,0 +1,36 @@
+1a. List four legal identifier names.
+1b. List four illegal identifier names and explain why each is illegal.
+
+
+
+2a. In two statements, declare a variable named "numBeads" and and assign it the value 5.
+2b. In one statement, declare a variable names "numBeads" and assign it the value 5.
+
+
+
+3a. What is the final value of "yourNumber" after the last statement executes?
+-- 
+3b. What is the final value of "yourNumber" after the last statement executes?
+-- 
+
+
+
+4. Determine the appropriate data type for each of the following values:
+
+4a. the number of basketballs in a department store.
+-- int
+4b. the price of a basketball.
+-- int (don't use a floating point number for the cost of an item; use an integer and measure your prices in cents. floating point inaccuracy is annoying to deal with.)
+4c. the number of players on a basketball team.
+-- int
+4d. the average age of the players on a basketball team.
+-- double
+4e. whether a basketball player has recieved a jersey or not.
+-- boolean
+4f. the first initial of a basketball player's first name.
+-- char
+
+
+
+5a. What is the difference between a primitive data type and an abstract data type?
+5b. What is the difference between a class and an object?
