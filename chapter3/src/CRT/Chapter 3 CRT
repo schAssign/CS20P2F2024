@@ -1,17 +1,34 @@
 1a. List four legal identifier names.
+-- i
+-- sumOfItems
+-- sum_of_items
+-- cost_in$
+
 1b. List four illegal identifier names and explain why each is illegal.
+-- int
+^ this is a reserved name in Java. the same thing applies if you used "double" as an identifier name, for example
+-- _costs
+^ names must start with a letter.
+-- cost of items
+^ names may not contain spaces
+-- costOfItems.
+^ manes may not contain periods
 
 
 
 2a. In two statements, declare a variable named "numBeads" and and assign it the value 5.
+-- int numBeads;
+-- numBeads = 5;
+
 2b. In one statement, declare a variable names "numBeads" and assign it the value 5.
+-- int numBeads = 5;
 
 
 
 3a. What is the final value of "yourNumber" after the last statement executes?
--- 
+-- 13
 3b. What is the final value of "yourNumber" after the last statement executes?
--- 
+-- 11
 
 
 
@@ -33,4 +50,6 @@
 
 
 5a. What is the difference between a primitive data type and an abstract data type?
+-- A primitive data type stores a single piece of data. These are integers, boolean values, so on. In comparison, an abstract data type is something like a Class which contains methods for performing actions on data.
 5b. What is the difference between a class and an object?
+-- A class contains objects. Objects are variables within classes.
