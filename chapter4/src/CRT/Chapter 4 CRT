@@ -1,0 +1,55 @@
+1. Use a decision structure to write an appropriate statement for each of the following:
+
+1a) 
+
+if (grade >= 90) {
+System.out.print("Great Job!");
+}
+
+1b)
+
+if (number > 50 || number < 20) {
+System.out.print("Error");
+}
+
+1c)
+
+if (y < 100) {
+y += 2;
+}
+
+
+
+2. Assume num1 and num2 contain integer values. Write an if-else if statement that displays one of the following messages as appropriate:
+
+if (num1 > num2) {
+System.out.print("First number is greater!");
+} else if (num2 > num1) {
+System.out.print("Second number is greater!");
+} else {
+System.out.print("The numbers are equal.");
+}
+
+
+
+3. Which is the appropriate word, odd or even for the blanks below?
+
+3a. if even, else odd
+
+3b.
+
+
+
+4. Write statements that use Math.random() to generate random numbers for each of the following situations:
+
+4a. (int)((50 - 1 + 1) * Math.random() + 1)
+
+4b. (int)((100 - 20 + 1) * Math.random() + 20)
+
+4c. (20 - 10 + 1) * Math.random() + 10
+
+
+
+5. Identify the logic errors in the statements below, which should display a single appropriate message for any value of age:
+
+The statements don't use >=, so anybody who is 18 won't have a message printed and anybody who is 65 won't have a message printed.
