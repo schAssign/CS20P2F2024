@@ -23,11 +23,11 @@ y += 2;
 2. Assume num1 and num2 contain integer values. Write an if-else if statement that displays one of the following messages as appropriate:
 
 if (num1 > num2) {
-System.out.print("First number is greater!");
+	System.out.print("First number is greater!");
 } else if (num2 > num1) {
-System.out.print("Second number is greater!");
+	System.out.print("Second number is greater!");
 } else {
-System.out.print("The numbers are equal.");
+	System.out.print("The numbers are equal.");
 }
 
 
@@ -37,6 +37,12 @@ System.out.print("The numbers are equal.");
 3a. if even, else odd
 
 3b.
+// In what world would you want to express this as a switch-case statement?
+x = num % 2;
+switch(x) {
+	case 0: System.out.println("Even number"); break;
+	default: System.out.println("Odd number"); break;
+}
 
 
 
@@ -53,3 +59,33 @@ System.out.print("The numbers are equal.");
 5. Identify the logic errors in the statements below, which should display a single appropriate message for any value of age:
 
 The statements don't use >=, so anybody who is 18 won't have a message printed and anybody who is 65 won't have a message printed.
+
+
+
+6.
+
+a) True
+b) False
+c) True
+d) True
+e) True
+f) True
+g) True
+
+
+
+8. 
+
+a) True
+b) False. an if-else-if doesn't involve nesting. They can achieve the same ends if you try, though.
+c) False. It must evaluate to an integer.
+d) True.
+e) False. When you generate a random number, it is a (double) by default, and you must cast it to an (int)
+f) True
+g) True
+h) False. The order of operations is the other way around.
+i) True
+j) True
+
+
+
