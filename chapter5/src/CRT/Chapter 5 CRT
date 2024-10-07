@@ -1,0 +1,61 @@
+1. What is the purpose of a loop structure?
+- To handle things that need to repeat in a program.
+
+
+
+2. Explain the difference between a while statement and a do-while statement.
+- A while statement will only execute if it's condition is true. a do-while loop will execute once before checking whether it's statement is true.
+
+
+
+3. An input invalidation loop is a loop that checks user input for valid data . If valid data is not entered, the loop iterates until valid data is entered. In which review of this chapter did you write code for an input validation loop?
+- (to do later)
+
+
+
+4a. What is an infinite loop?
+- It's a loop that doesn't end.
+
+4b. List two types of errors that can lead to an infinite loop.
+- A semicolon after the condition of a loop, which will cause the condition to be checked infinitely.
+- A logic error causing the condition of the loop to never be met or broken.
+
+4c. What is meant by "Overflow"?
+- When a value gets so high, it wraps around to it's lowest possible value again. For example, if you have a 16 bit unsigned integer and it reaches past 65,535 then it will wrap around back to 0, because you can't store a higher value than 65,535 in 16 digits of base 2.
+
+
+
+5. How many times will the do-while loop execute?
+- It will execute 60 times.
+
+
+
+6. What initial value of x would make the loop infinite?
+- Setting x to anything below 123 would cause the loop to run infinitely.
+
+
+
+7. Compare and contrast counters and accumulators. List two uses for each.
+
+- A counter is a number that is incremented by a set fixed value each loop. This is typically expressed as "i" in a For loop.
+- An accumulator is incremented by a variable amount.
+
+- A counter is useful if you only want to do a loop a certain amount of times. For example, if you want the user to input 5 values (like a grade).
+- A counter is also useful if you want to know how many times a loop occured. For example, if you wanted to tell the user how many times they tried to guess a number in the guessinggame application.
+
+- An accumulator could be used to gather the total value of a certain thing, for example, adding up all the grades a student got. You could then divide this by the counter in order to get an average grade.
+- An accumulator is also useful if, for example, you want to know how much time was spent on something. You would use the accumulator to add up the time in whatever unit of time.
+
+
+
+8. Write a For statement that sums the integers from 3 to 10, inclusive.
+
+int sumOfNumbers = 0;
+for (int i = 3; i < 10; i++) {
+	sumOfNumbers += i; }
+	
+
+
+9. List two factors that should be considered when determining which loop structure to use.
+	- Will this loop iterate a set number of times, or until the user does something specific?
+	- Should this loop run at least once, no matter what?
