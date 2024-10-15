@@ -9,8 +9,7 @@
 
 
 3. An input invalidation loop is a loop that checks user input for valid data . If valid data is not entered, the loop iterates until valid data is entered. In which review of this chapter did you write code for an input validation loop?
-- (to do later)
-
+- In my GroupAssignment review, I checked whether the value of the key mapped to the inputted data was null. However, I did not iterate again to try and get valid data. This would be more feasible once we learn about functions in the next chapter, I think. I could have written an input validation loop for the GuessingGame, to make sure that the user's input was within the minValue and maxValue, but I didn't because it wasn't super necessary.
 
 
 4a. What is an infinite loop?
