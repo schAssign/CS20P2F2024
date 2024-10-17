@@ -1,0 +1,33 @@
+Complete Questions #2 - #9
+
+2. Explain the difference between a method declaration and method body.
+
+- A method declaration is the information about the method, such as the passed values and the type of the returned value.
+- A method body is the group of individual statements that are contained by the method.
+
+
+
+3. What type of keyword is used to change the access level of a method?
+
+- In this chapter, we only used the 'Public' keyword for method access level.
+
+
+
+4. What is another word used for describing the access level of a method?
+
+- Visibility.
+
+
+
+5. Explain the scope of each of the variables in the code below:
+
+- Var3 and Var4 have a scope which is local to method1(). They cannot be used outside of their respective method.
+- Var1 and Var2 are local to the main method. Neither of them are passed to the other method.
+
+6. Write a method declaration for each of the following descriptions:
+
+6a) 
+
+6b)
+
+6c)
