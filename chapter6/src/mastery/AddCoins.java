@@ -16,6 +16,11 @@ import java.lang.String; import java.text.NumberFormat; import java.util.Scanner
 
 public class AddCoins {
 
+	/** This method converts an arbitrary number of coins into a formatted dollar value. 
+	 * 	pre: The method must be passed 4 seperate integer values. These values can = 0.
+	 * 	post: Returns a string.
+	 * 
+	 * */
 	public static String getDollarAmount(int quarters, int dimes, int nickels, int pennies) 
 	{
 		int centValue;
@@ -31,7 +36,12 @@ public class AddCoins {
 	}
 	
 	
-	
+	/** 
+	 * 	This method prompts the user to input an integer. The main feature of this method is it's error handling capabilities.
+	 * 	pre: Scanner must be imported into the file.
+	 * 	post: Returns an integer. 
+	 *
+	 * */ 
 	public static int integerInputHandler() 
 	{
 		Scanner userInput = new Scanner(System.in);

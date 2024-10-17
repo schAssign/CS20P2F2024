@@ -2,32 +2,65 @@ Complete Questions #2 - #9
 
 2. Explain the difference between a method declaration and method body.
 
-- A method declaration is the information about the method, such as the passed values and the type of the returned value.
-- A method body is the group of individual statements that are contained by the method.
+	- A method declaration is the information about the method, such as the passed values and the type of the returned value.
+	- A method body is the group of individual statements that are contained by the method.
 
 
 
-3. What type of keyword is used to change the access level of a method?
+3. What type of keyword is used to change the access level of a method?	
 
-- In this chapter, we only used the 'Public' keyword for method access level.
+	- In this chapter, we only used the 'Public' keyword for method access level.
 
 
 
 4. What is another word used for describing the access level of a method?
 
-- Visibility.
+	- Visibility.
 
 
 
 5. Explain the scope of each of the variables in the code below:
 
-- Var3 and Var4 have a scope which is local to method1(). They cannot be used outside of their respective method.
-- Var1 and Var2 are local to the main method. Neither of them are passed to the other method.
+	- Var3 and Var4 have a scope which is local to method1(). They cannot be used outside of their respective method.
+	- Var1 and Var2 are local to the main method. Neither of them are passed to the other method.
+
+
 
 6. Write a method declaration for each of the following descriptions:
 
-6a) 
+	6a) public static int getVowels(String inputString) {}
+	
+	6b) public static int extractDigit(int digitToExtract) {}
+	
+	6c)public static String insertString(String inputString, int spaceToInsert) {}
 
-6b)
 
-6c)
+
+7. 
+
+	7a) How does the compiler distinguish one method from another?
+		- The compiler looks into the details of the method declaration.
+
+	7b) Can two methods in the same class have the same name? Explain.
+		- Yes. Two methods can share the same name, but as long as the parameters are different they will both be valid methods.
+
+
+
+8.
+
+	8a) What is the return statement used for?
+		- The return statement will end a method early. It is used to pass values back to whatever line of code called the method.
+
+	8b) How many values can a return statement send back to the calling statement?
+		- only one.
+
+	8c) How is the declaration of a method returning a value different from the declaration of a method that does not return a value?
+		- A method that returns a value needs to state the data type of the returned value. A method that does not return a value uses the "void" keyword, instead.
+
+
+
+9. Find and explain the error in the code below:
+
+	- The main method is not contained within the MethodCallExample class.
+
+
