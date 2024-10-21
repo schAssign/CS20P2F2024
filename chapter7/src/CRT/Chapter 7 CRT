@@ -1,0 +1,65 @@
+1. Which members of the Circle class are encapsulated?
+	- PI, radius
+
+
+
+2. What name must the constructor of a class have?
+	- The same name as the class.
+
+
+
+3. Explain the difference between the private and public access modifiers.
+	- An item with a private modifier can only by accessed and modified by it's respective class. An item with a public modifier can be accessed and modified outside of it's class, like in client code.
+	- Protecting parts of a class with a private modifier is called encapsulation.
+
+
+
+4. Consider the following code. Is the last statement valid or invalid? Explain.
+	- The last statement is not valid. Nothing is passed to the method. The correct statement would be: dot.radius(5); if we assume that radius() sets the radius. In my circle class i used setRadius()
+
+
+
+5. Use the following class to answer the questions below:
+
+	5a) What is the name of the class?
+		- Roo
+
+	5b) What is the name of the data member?
+		- x
+		
+	5c) List the accessor method.
+		- getX()
+		
+	5d) List the modifier method.
+		- setX()
+		
+	5e) List the helper method.
+		- calculate
+		
+	5f) What is the name of the constructor?
+		- Roo
+		
+	5g) How many method members are there?
+		- 5. One data member, x, and 4 methods.
+		
+
+		
+6. What is the difference between a class and an object?
+	- A class contains an object. The class defines the behavours of the object.
+	- An object is defined by a class.
+	
+
+	
+9. Use the following class data member definitions to answer the questions below:
+
+	9a) Which data member is a constant?
+		- z.
+		
+	9b) Which data members are variables?
+		- y, x
+		
+	9c) Which data members are instance members?
+		- y
+		
+	9d) Which data members are class members?
+		- x, y, z

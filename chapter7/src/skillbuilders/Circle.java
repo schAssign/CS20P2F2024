@@ -72,11 +72,37 @@ public class Circle {
 		
 	}
 	
-	public static void main(String[] args) { // client code, to test.
-		Circle spot = new Circle(3);
+	/**
+	 * Displays the formula for the area of a circle.
+	 * pre: none
+	 * post: Outputs the formula for the area of a circle on a new line.
+	 */
+	public static void displayAreaFormula() {
+		System.out.println("The formula for the area of a circle is PI*radius^2");
+	}
+	
+	/**
+	 * Determines if the object is equal to another circle object
+	 * pre: input is a circle object
+	 * post: boolean value, which tells you whether the objects are equal
+	 */
+	public boolean equals(Object c) { // this specifically was a bit confusing to me. In essence: equals is a method which belongs to a Circle object. circle.equals() is the method, and the object we pass is used as an item to compare to.
+		Circle testObj = (Circle)c; // the object that we pass isn't necessarily a circle, hence why we typecast the passed value to a circle.
 		
-		System.out.println("Circle radius: " + spot.getRadius());
-		System.out.println("Circle Circumference: " + spot.circumference());
+		if (testObj.getRadius() == radius) { // testObj.getRadius is the radius of the passed object. radius is the radius of the parent object of the method.
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	/**
+	 * Returns a string describing the circle object
+	 * pre:none
+	 * post: outputs the defining characteristic (radius) of the circle object.
+	 */
+	public String toString() {
+		return ("The circle has a radius of " + radius);
 	}
 }
 
