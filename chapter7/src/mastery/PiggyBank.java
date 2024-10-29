@@ -159,6 +159,11 @@ public class PiggyBank {
 			return false; }
 	}
 	
-
+	public void emptyBank() {
+		pennyCount = 0;
+		nickelCount = 0;
+		dimeCount = 0;
+		quarterCount = 0;
+	}
 	
 }
