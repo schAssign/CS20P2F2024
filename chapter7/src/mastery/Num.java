@@ -23,8 +23,14 @@ public class Num { // just methods for this object
 	private int calculateDigit(int numToCheck, int toWhichDigit) { // i hate to use so many variables (waste of memory) but this needs to be at least somewhat readable. sorry!
 		
 		String stringToCheck = Integer.toString(numToCheck); // convert the passed int to string, 
+		String stringToReturn;
 		
-		String stringToReturn = stringToCheck.substring(stringToCheck.length() - toWhichDigit, stringToCheck.length() - toWhichDigit + 1); //gets the part of the string, starting from the left side and moving backwards ( String.length - ___ ), specified by toWhichDigit.
+		try {
+		stringToReturn = stringToCheck.substring(stringToCheck.length() - toWhichDigit, stringToCheck.length() - toWhichDigit + 1); //gets the part of the string, starting from the left side and moving backwards ( String.length - ___ ), specified by toWhichDigit				break;
+			}
+		catch (Exception outOFBoundsCheckFromToIndex) { // if the digit checked is not within the number to check, return 0
+				return 0;
+			}
 		
 		/* REMINDER TO SELF:
 		 * HANDLE THE outOfBoundsCheckFromToIndex ERROR WHICH IS CAUSED WHEN YOU TRY TO GET AN OUT OF BOUNDS DIGIT. IDEALLY, IN THIS CASE, RETURN 0.
@@ -49,6 +55,17 @@ public class Num { // just methods for this object
 		return calculateDigit(numToCheck, toWhichDigitCalculator);
 	}
 	
+	public int getDigit(int numToCheck, String toWhichDigit) {
+		
+		switch(toWhichDigit.toLowerCase()) {
+		case "ones": return calculateDigit(numToCheck, 1);
+		case "tens": return calculateDigit(numToCheck, 2);
+		case "hundreds": return calculateDigit(numToCheck, 3);
+		case "thousands": return calculateDigit(numToCheck, 4);
+		default: System.out.println("Digit to check is invalid, returning ..."); return 0;
+		
+		}
+	}
 	
 	
 	

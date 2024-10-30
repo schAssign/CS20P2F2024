@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><dc:date>2024-10-29T10:12:04.074358381</dc:date><meta:editing-duration>PT1H33M20S</meta:editing-duration><meta:editing-cycles>14</meta:editing-cycles><meta:generator>LibreOffice/24.2.5.2$Linux_X86_64 LibreOffice_project/420$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="3" meta:object-count="0" meta:page-count="1" meta:paragraph-count="9" meta:word-count="113" meta:character-count="677" meta:non-whitespace-character-count="571"/></office:meta>
+ <office:meta><dc:date>2024-10-30T11:22:12.217522480</dc:date><meta:editing-duration>PT1H35M22S</meta:editing-duration><meta:editing-cycles>15</meta:editing-cycles><meta:generator>LibreOffice/24.2.5.2$Linux_X86_64 LibreOffice_project/420$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="4" meta:object-count="0" meta:page-count="1" meta:paragraph-count="10" meta:word-count="135" meta:character-count="790" meta:non-whitespace-character-count="663"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">5115</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">13935</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">24961</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">14885</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">19233</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">16979</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">3685</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">17858</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">5115</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">13935</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">24959</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">19999</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">28818</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -138,7 +138,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">2593354</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">2650625</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -163,7 +163,7 @@
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:writing-mode="lr-tb" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0cm" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0cm" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="CA" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -326,6 +326,15 @@
   <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:rsid="0027924a" officeooo:paragraph-rsid="0027924a"/>
   </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0027924a" officeooo:paragraph-rsid="0027924a" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="0027924a" officeooo:paragraph-rsid="0027924a"/>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="00285b9a" officeooo:paragraph-rsid="00285b9a"/>
+  </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties style:text-position="super 58%"/>
   </style:style>
@@ -360,6 +369,9 @@
    <style:text-properties officeooo:rsid="00261947"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
+   <style:graphic-properties style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
+  </style:style>
+  <style:style style:name="fr2" style:family="graphic" style:parent-style-name="Graphics">
    <style:graphic-properties style:run-through="foreground" style:wrap="none" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
   </style:style>
   <style:page-layout style:name="pm1">
@@ -391,7 +403,7 @@
    <text:p text:style-name="P3">CSE <text:span text:style-name="T10">3120</text:span> <text:span text:style-name="T10">Object-Oriented Programming 1</text:span></text:p>
    <text:p text:style-name="P3">(<text:span text:style-name="T11">Num</text:span>.java, <text:span text:style-name="T11">DigitExtractor</text:span><text:span text:style-name="T10">.java</text:span>)</text:p>
    <text:p text:style-name="P1">Describe the errors you’ve encountered while working on this assignment. What caused the error and how do you overcome the error?</text:p>
-   <text:p text:style-name="P14"><draw:frame draw:style-name="fr1" draw:name="Image1" text:anchor-type="char" svg:x="2.708cm" svg:y="-0.021cm" svg:width="12.091cm" svg:height="1.799cm" draw:z-index="0"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P14"><draw:frame draw:style-name="fr2" draw:name="Image1" text:anchor-type="char" svg:x="2.708cm" svg:y="-0.021cm" svg:width="12.091cm" svg:height="1.799cm" draw:z-index="0"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAckAAABECAYAAADqZs7DAAAgAElEQVR4nO3dd3gU1d7A8e9s
        djeb3jshJEAINaE3KSJFQAVFRKWoiCKIXAEFRYodFAsoAqJcRVBUsF0BFVCaID0hlARCCAkl
        Ib23Lef9IwGSkE02JIHgez7Ps4+4c+a0mZ3fnDMzGUQd0++fKYLtR4r1hTeag1EkbnpNPL1o
@@ -552,7 +564,7 @@
       </office:binary-data>
      </draw:image>
     </draw:frame><text:span text:style-name="T9">Eclipse tells me that I can’t just typecast from an int to a string. This was circumvented using the following method of the Integer class:</text:span></text:p>
-   <text:p text:style-name="P14"><draw:frame draw:style-name="fr1" draw:name="Image2" text:anchor-type="char" svg:x="2.859cm" svg:y="0.157cm" svg:width="11.827cm" svg:height="0.45cm" draw:z-index="1"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P14"><draw:frame draw:style-name="fr2" draw:name="Image2" text:anchor-type="char" svg:x="2.859cm" svg:y="0.157cm" svg:width="11.827cm" svg:height="0.45cm" draw:z-index="1"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAb8AAAARCAYAAABNcqJYAAAZGUlEQVR4nO2dd3QV1RbGf3PT
        Q3ohjZCE9F6k94d0REAQ6SAPFdHQQQWpT1CUJjwBQZSiIJHQQeqTKiaUQNpNbwRSSEgl9d47
        749UIOUGQSz51soiMHP27Dnz7bPPLjMIoiiKNKMZzWhGM5rxD4Lqi1bgz4S86H0vWoVmNAB9
@@ -678,8 +690,8 @@
      </draw:image>
     </draw:frame><text:span text:style-name="T9"/></text:p>
    <text:p text:style-name="P14"><text:span text:style-name="T9"/></text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T9">CONSISTENTLY, I must’ve had tens of outOfBoundsCheckFromTo errors as a result of this line. </text:span></text:p>
-   <text:p text:style-name="P15"><draw:frame draw:style-name="fr1" draw:name="Image3" text:anchor-type="char" svg:x="0.088cm" svg:y="-0.011cm" svg:width="17.59cm" svg:height="0.69cm" draw:z-index="2"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P16">CONSISTENTLY, I must’ve had tens of outOfBoundsCheckFromTo errors as a result of this line. </text:p>
+   <text:p text:style-name="P15"><draw:frame draw:style-name="fr2" draw:name="Image3" text:anchor-type="char" svg:x="0.088cm" svg:y="-0.011cm" svg:width="17.59cm" svg:height="0.69cm" draw:z-index="2"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABC8AAAAqCAYAAACTM3GdAAAY80lEQVR4nO3dd3hUZdrH8e+Z
        SSYhCem9V1oUgdCLdKQtKiJlpSmgoLuuKCyWxVcXZRHRhayiqxQXQUBEQEVRitRQQ6gCCUUC
        oSSB9BCSzJz3jyRISaakkAncn+vyDy9ynvOcZ37nPmeeOUVRVVVFCCGEEEIIIYQQwkpparsD
@@ -803,6 +815,74 @@
       </office:binary-data>
      </draw:image>
     </draw:frame><text:span text:style-name="T9">The solution was to change the -1 to a +1. Because you will always subtract at least </text:span><text:span text:style-name="T8">1</text:span><text:span text:style-name="T9"> from the start and end values, adding +1 to the end value makes sure that you aren’t returned an empty string. </text:span></text:p>
+   <text:p text:style-name="P15"><text:span text:style-name="T9"/></text:p>
+   <text:p text:style-name="P15"><text:span text:style-name="T9"/></text:p>
+   <text:p text:style-name="P18"><draw:frame draw:style-name="fr1" draw:name="Image4" text:anchor-type="char" svg:x="1.665cm" svg:y="1.455cm" svg:width="6.191cm" svg:height="0.688cm" draw:z-index="3"><draw:image draw:mime-type="image/png">
+      <office:binary-data>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
+      </office:binary-data>
+     </draw:image>
+    </draw:frame><text:span text:style-name="T9">For my main client code loop, I forgot to use two equality signs. This resulted in a loop which would never quit.</text:span></text:p>
   </office:text>
  </office:body>
 </office:document>
