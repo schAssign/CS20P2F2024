@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.8.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.8.3">
   <diagram name="Page-1" id="rXF5lAfoi6Q8Zau5WPzp">
-    <mxGraphModel dx="577" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="856" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UGMfx2C_E16pT8OKfv3p-1" value="PiggyBank Class" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UGMfx2C_E16pT8OKfv3p-1" value="PiggyBank" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="160" width="240" height="320" as="geometry" />
         </mxCell>
         <mxCell id="UGMfx2C_E16pT8OKfv3p-2" value="&lt;div&gt;- pennyCount: Integer&lt;/div&gt;&lt;div&gt;- nickelCount: Integer&lt;/div&gt;&lt;div&gt;- dimeCount: Integer&lt;/div&gt;&lt;div&gt;- quarterCount: Integer&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="UGMfx2C_E16pT8OKfv3p-1" vertex="1">
@@ -16,17 +16,23 @@
         <mxCell id="UGMfx2C_E16pT8OKfv3p-4" value="&lt;div&gt;+ PiggyBank(): Constructor&lt;/div&gt;&lt;div&gt;+ PiggyBank(int, int, int, int) Constructor&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ showTotalActualValue(): Integer&lt;/div&gt;&lt;div&gt;+ showTotalDollarValue(): Double&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ showCoins(): String&lt;/div&gt;&lt;div&gt;+ addPenny(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ addNickel(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ addDime(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ addQuarter(): void&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;/div&gt;&lt;div&gt;+ Equals(Object): boolean&lt;/div&gt;&lt;div&gt;+ emptyBank(): void&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="UGMfx2C_E16pT8OKfv3p-1" vertex="1">
           <mxGeometry y="108" width="240" height="212" as="geometry" />
         </mxCell>
-        <mxCell id="IRPHt1wNAPCDjAhWvrGN-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.996;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UGMfx2C_E16pT8OKfv3p-4" target="IRPHt1wNAPCDjAhWvrGN-13">
+        <mxCell id="IRPHt1wNAPCDjAhWvrGN-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.996;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="UGMfx2C_E16pT8OKfv3p-4" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="260" y="320" as="sourcePoint" />
-            <mxPoint x="350" y="320" as="targetPoint" />
+            <mxPoint x="360" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IRPHt1wNAPCDjAhWvrGN-13" value="&lt;div&gt;&lt;b&gt;MySavings Class&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="360" y="160" width="180" height="320" as="geometry" />
+        <mxCell id="IRPHt1wNAPCDjAhWvrGN-14" value="&lt;div&gt;pennyCount = 0&lt;/div&gt;&lt;div&gt;nickelCount = 0&lt;/div&gt;&lt;div&gt;dimeCount = 0&lt;/div&gt;&lt;div&gt;quarterCount = 0&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="385" y="251" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="IRPHt1wNAPCDjAhWvrGN-14" value="&lt;div&gt;Object myBank&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;pennyCount = 0&lt;/div&gt;&lt;div&gt;nickelCount = 0&lt;/div&gt;&lt;div&gt;dimeCount = 0&lt;/div&gt;&lt;div&gt;quarterCount = 0&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="395" y="218" width="110" height="102" as="geometry" />
+        <mxCell id="Vj5Q4YDhSCxnoSKuw9CB-5" value="MySavings" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj5Q4YDhSCxnoSKuw9CB-8" value="+ main()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Vj5Q4YDhSCxnoSKuw9CB-5">
+          <mxGeometry y="26" width="160" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj5Q4YDhSCxnoSKuw9CB-10" value="myBank" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="221" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
