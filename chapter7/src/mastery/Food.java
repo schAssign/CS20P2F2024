@@ -1,9 +1,9 @@
 package mastery;
 
-public class Food {
+public class Food { // if I were writing a class to be used in a real program, the items and their respective values would be stored in a CSV file or spreadsheet and those would be refrenced for the nutrition facts. For our purpose, storing these values in variables works well enough. I'm not creating accessor values, primarily because if this were a real program you would NOT want to expose any way of changing data to the client, just to the backend.
 	private String foodType;
 	private int price; // price is in cents.
-	private double fat;
+	private double fat; // nutrition is in grams.
 	private double carbs;
 	private double fibre;
 
@@ -51,6 +51,7 @@ public class Food {
 			
 		default:
 			System.out.println("Selected food is not a valid food type! Setting values to 0...");
+			foodType = "invalid";
 			price = 0;
 			fat = 0.0;
 			carbs = 0.0;
@@ -71,6 +72,7 @@ public class Food {
 	}
 	
 	
+	
 	/**
 	 * Returns the type of food of the object.
 	 * pre: none
@@ -80,4 +82,45 @@ public class Food {
 	public String getFoodType() {
 		return foodType;
 	}
+	
+	/**
+	 * Returns the price of the food object.
+	 * pre: none
+	 * post: Price of food has been returned.
+	 * @return price
+	 */
+	public int getFoodPrice() {
+		return price;
+	}
+	
+	/**
+	 * Returns the fat of the food object.
+	 * pre: none
+	 * post: amount of fat, in grams, has been returned.
+	 * @return fat
+	 */
+	public double getFoodFat() {
+		return fat;
+	}
+	
+	/**
+	 * Returns the carbs of the food object
+	 * pre: none
+	 * post: the amount of carbohydrates, in grams, is returned.
+	 * @return carbs
+	 */
+	public double getFoodCarbs() {
+		return carbs;
+	}
+	
+	/**
+	 * Returns the fibre of the food object
+	 * pre: none
+	 * post: The amount of fibre, in grams, is returned.
+	 * @return fibre
+	 */
+	public double getFoodFibre() {
+		return fibre;
+	}
+
 }
