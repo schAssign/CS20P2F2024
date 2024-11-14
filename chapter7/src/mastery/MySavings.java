@@ -1,3 +1,15 @@
+/* 
+
+Program: MySavings.java, PiggyBank.java              Date:November 5th 2024
+
+Purpose: Create a MySavings application that displays a menu of choices for entering pennies, nickels, dimes, and quarters into a piggy bank and then prompts the user ot make a selection. The mysavings application should include a piggybank object that can add coins to the piggy bank, remove coins, and return the total amount in the bank.
+
+Author: Stefan S
+School: CHHS
+Course: CS20
+
+*/
+
 package mastery;
 
 import java.util.Scanner;
@@ -41,3 +53,37 @@ public class MySavings {
 
 	}
 }
+
+/* Screen Dump
+
+Test case:
+
+	1. Show total in bank
+	2. Add a penny.
+	3. Add a nickel.
+	4. Add a dime.
+	5. Add a quarter.
+	6. Take money out of the bank.
+	Enter 0 to quit.
+	Your Choice: 2
+	
+	1. Show total in bank
+	2. Add a penny.
+	3. Add a nickel.
+	4. Add a dime.
+	5. Add a quarter.
+	6. Take money out of the bank.
+	Enter 0 to quit.
+	Your Choice: 1
+	The piggybank has 1 penny, 0 nickels, 0 dimes, 0 quarters, and is worth 1 cents.
+	
+	1. Show total in bank
+	2. Add a penny.
+	3. Add a nickel.
+	4. Add a dime.
+	5. Add a quarter.
+	6. Take money out of the bank.
+	Enter 0 to quit.
+	Your Choice: 0
+	
+*/

@@ -1,3 +1,15 @@
+/* 
+
+Program: LunchOrder.java, Food.java              Date: November 5th 2024
+
+Purpose: Create a LunchOrder application that prompts the user for the number of hamburgers, salads, french fries, and sodas and then displays the total for the order. The lunchorder application should include a food object with a constructor that accept  the price, fat , carbs, and fiber for an item. Food methods should returh the price of an item and return the fat, carbohydrates, and fiber. Use the chart below for food prices and nutrition information:
+
+Author: Stefan S
+School: CHHS
+Course: CS20
+
+*/
+
 package mastery;
 
 import java.util.Scanner;
@@ -46,3 +58,24 @@ public class LunchOrder {
 	}
 
 }
+
+/* Screen Dump
+
+Test case:
+
+	The hamburger costs 1.85$, and has 9.0 g of fat, 33.0 g of carbohydrates, 1.0 g of fibres.
+	Enter number of Hamburgers: 1
+	
+	The salad costs 2.00$, and has 1.0 g of fat, 11.0 g of carbohydrates, 5.0 g of fibres.
+	Enter number of Salads: 2
+	
+	The french fries costs 1.30$, and has 11.0 g of fat, 36.0 g of carbohydrates, 4.0 g of fibres.
+	Enter number of Fries: 3
+	
+	The soda costs 0.95$, and has 0.0 g of fat, 38.0 g of carbohydrates, 0.0 g of fibres.
+	Enter number of Sodas: 4
+	
+	Your order comes to 13.55$
+
+*/
+

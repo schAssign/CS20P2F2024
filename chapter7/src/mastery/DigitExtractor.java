@@ -1,3 +1,15 @@
+/* 
+
+Program: DigitExtractor.java, Num.java              Date: November 5th 2024
+
+Purpose: Create a digitextractor application that prompts the user for an integer and then displays the ones tens, and hundreds digit of the number. The digitextractor application should include a num object that cna return the ones digit, the tens digit, the hundreds digit, and the whole number.
+
+Author: Stefan S
+School: CHHS
+Course: CS20
+
+*/
+
 package mastery;
 
 import java.util.Scanner; 
@@ -87,3 +99,71 @@ public class DigitExtractor {
 	}
 
 }
+
+/* Screen Dump
+
+Test Case 1:
+
+	Enter an integer: 1234
+	show (W)hole number.
+	show (O)nes place number.
+	show (T)ens place number.
+	show (H)undreds place number.
+	(Q)uit.
+	Enter your choice: 
+	o
+	The ones place digit is: 4
+	
+	show (W)hole number.
+	show (O)nes place number.
+	show (T)ens place number.
+	show (H)undreds place number.
+	(Q)uit.
+	Enter your choice: 
+	t
+	The tens place digit is: 3
+	
+	show (W)hole number.
+	show (O)nes place number.
+	show (T)ens place number.
+	show (H)undreds place number.
+	(Q)uit.
+	Enter your choice: 
+	h
+	The hundreds place digit is: 2
+	
+	show (W)hole number.
+	show (O)nes place number.
+	show (T)ens place number.
+	show (H)undreds place number.
+	(Q)uit.
+	Enter your choice: 
+	w
+	The number is: 1234
+	
+	show (W)hole number.
+	show (O)nes place number.
+	show (T)ens place number.
+	show (H)undreds place number.
+	(Q)uit.
+	Enter your choice: 
+	q
+	
+
+Test Case 2:
+	
+	Enter an integer: test
+	InputMismatchException! Try again...
+	test
+	InputMismatchException! Try again...
+	2
+	show (W)hole number.
+	show (O)nes place number.
+	show (T)ens place number.
+	show (H)undreds place number.
+	(Q)uit.
+	Enter your choice: 
+	q
+	
+*/
+
