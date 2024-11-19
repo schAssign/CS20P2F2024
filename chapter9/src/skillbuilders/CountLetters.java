@@ -1,6 +1,10 @@
+// https://docs.oracle.com/javase/1.5.0/docs/api/java/util/regex/Pattern.html#sum
+
 package skillbuilders;
 
-import java.util.Scanner; import java.util.regex.Pattern;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CountLetters {
 
@@ -20,7 +24,7 @@ public class CountLetters {
 		
 		/* convert the word to char array and count letter occurrences */
 		word = word.toUpperCase();
-		word = word.trim();	//remove whitespaces
+		word = word.replaceAll("[^ABCDEFGHIJKLMNOPQRSTUVWXYZ]", ""); // regular expressions are pain
 		
 		wordLetters = word.toCharArray();
 		for (int letter = 0; letter < wordLetters.length; letter++) {
