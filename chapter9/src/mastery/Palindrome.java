@@ -16,8 +16,6 @@ import java.util.Scanner; import java.util.Arrays;
 
 public class Palindrome {
 	
-	
-	
 	/**
 	 * currently unused.
 	 * @return empty string
@@ -47,7 +45,11 @@ public class Palindrome {
 	public static String sanitizeInput(String inputToFormat) 
 	{
 		inputToFormat = inputToFormat.toLowerCase();	// convert all characters to lowercase, so that we can compare letters regardless of their original case.
-		inputToFormat = inputToFormat.replaceAll("[^abcdefghijklmnopqrstuvwxyz]", "");	// regular expression to delete everything but the letters.
+		inputToFormat = inputToFormat.replaceAll("[^abcdefghijklmnopqrstuvwxyz0123456789]", "");	// regular expression to delete everything but the letters and numbers.
+		
+		if (inputToFormat == "") {
+			return("<Sanitized string does not contain valid characters>"); }
+		
 		return inputToFormat;
 	}
 	
@@ -83,9 +85,22 @@ public class Palindrome {
 	/**
 	 * main method.
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
-		System.out.println(isPalindrome(sanitizeInput("Never odd or even")));
+		// declaration zone
+		Scanner userInput = new Scanner(System.in);
+		String palindromeToCheck;
+		
+		System.out.println("Please input a palindrome: ");
+		palindromeToCheck = userInput.nextLine();
+		
+		// run the input past isPalindrome() to check the result. also run sanitizeInput() to delete uneccessary grammar (critically: spaces, but also apostraphes and periods, etc)
+		if(isPalindrome(sanitizeInput(palindromeToCheck)) == true) {
+			System.out.println(sanitizeInput(palindromeToCheck) + " is a palindrome!");
+		} else {
+			System.out.println(sanitizeInput(palindromeToCheck) + " is not a palindrome!");
+		}
 
 	}
 
@@ -93,6 +108,24 @@ public class Palindrome {
 
 /* Screen Dump
 
-(paste code output here)
+Test case 1:
+	Please input a palindrome: 
+	Kayak
+	Kayak is a palindrome!
+	
+Test case 2:
+	Please input a palindrome: 
+	never odd, or even!
+	never odd, or even! is a palindrome!
+	
+Test case 3:
+	Please input a palindrome: 
+	505
+	505 is a palindrome!
+	
+Test Case 4:	
+	Please input a palindrome: 
+	!!!!
+	<Sanitized string does not contain valid characters> is not a palindrome!
 
 */
