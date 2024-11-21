@@ -2,10 +2,11 @@ package mastery;
 
 import java.util.Scanner; import java.io.FileWriter;
 import java.io.IOException; import java.io.File;
-import java.util.Arrays;
+import java.util.Arrays; import java.util.ArrayList;
 
 public class GradeBook {
 	private static final String fileName = "gradebook.csv";
+	private static final String delimiter = ","; // i'd make this a char but Scanner.useDelimiter("") calls for a String
 	
 	
 	
@@ -26,7 +27,7 @@ public class GradeBook {
 		try 
 		{
 			scanner = new Scanner(GradeBook.class.getResourceAsStream(fileName));  // checks for a file matching fileName, in the same directory as GradeBook.java
-			scanner.useDelimiter(","); // make sure that the comma seperated values are actually comma separated.
+			scanner.useDelimiter(delimiter); // make sure that the comma seperated values are actually comma separated.
 			return scanner;
 		} 
 		catch(Exception NullPointerException) // if file can't be found
@@ -100,7 +101,7 @@ public class GradeBook {
 	
 	/**
 	 * Neatly formats and returns the information of 1 student, located at the given index. Information is neatly formatted.
-	 * @param index
+	 * @param Student index
 	 * @return
 	 */
 	public String getStudent(int index) 
@@ -134,7 +135,7 @@ public class GradeBook {
 			System.out.println("New student written to " + fileToWrite.getAbsolutePath());
 			System.out.println("If you're running this program in Eclipse, files may not refresh automatically! Go to your Project Explorer, press CTRL+A, and then press F5 to refresh files!");
 			FileWriter fileWriter = new FileWriter(fileToWrite, true); // "true" sets the filewriter to append mode.  "false" WILL OVERWRITE!
-			fileWriter.write("\n" + name + "," + Arrays.toString(grades).replaceAll("[\\]\\[ ]", "")); // create a new line. write the name, add a comma. Then display the grades Array in it's default format (which already has commas). we simply remove the whitespace and square brackets.
+			fileWriter.write("\n" + name + "," + Arrays.toString(grades).replaceAll("[\\]\\[ ]", "" + ",")); // create a new line. write the name, add a comma. Then display the grades Array in it's default format (which already has commas). we simply remove the whitespace and square brackets.
 			
 			fileWriter.close(); }
 		
@@ -143,11 +144,18 @@ public class GradeBook {
 	}
 	
 	
-	/* UNFINISHED: LOOK AT https://stackoverflow.com/questions/6456219/java-checking-if-parseint-throws-exception */
+	
+	/**
+	 * Returns an integer, containing the value of a given student's grade average. Finds student by their index.
+	 * @param Student index
+	 * @return Grade average
+	 */
 	public int studentGradeAverage(int index) 
 	{	Scanner studentInformationFinder = newScanner()
 	;	int gradeAggregator = 0
-	;	int numberOfColumns = 0; // negative one, because we're assuming at least one row contains the student name
+	;	int numberOfColumns = 0 // we increment this every time an integer is found in the row; LEAVE IT AT 0!
+	;	String lineToParse
+	;	Scanner lineParser;
 		
 		if (index >= amountOfRows()) {
 			System.out.println("NoSuchElementException prevented. Selected student could not be found.");
@@ -159,16 +167,93 @@ public class GradeBook {
 			studentInformationFinder.nextLine();
 		}
 		
-		while(studentInformationFinder.hasNext()) // go through all columns in the row. collect and add the data
-		{	String informationFound = studentInformationFinder.next();
+		lineToParse = studentInformationFinder.nextLine(); // store the line with the student's information to a variable
+		lineParser = new Scanner(lineToParse); // declare a new Scanner to parse the line
+		lineParser.useDelimiter(delimiter); // seperate by commas
+		
+		while(lineParser.hasNext()) // go through all columns in the row. collect and add the data. if data isn't an integer, ignore the data, ignore the exception, and keep going.
+		{	String informationFound = lineParser.next();
 
-			if(Integer.parseInt(informationFound) =/ false) {
+			try { Integer.parseInt(informationFound); 
+				//System.out.println(informationFound);
+			
 				numberOfColumns +=1;
-				gradeAggregator += studentInformationFinder.nextInt();
+				gradeAggregator += Integer.parseInt(informationFound);
+			} catch (Exception FinalNumberFormatException) {
+				
 			}
 		}
 		
+		lineParser.close();
+		studentInformationFinder.close();
 		return(gradeAggregator/numberOfColumns); // get the average of all grades found, and return it
 		
 	}
+	
+	
+	public int testGradeAverage(int index) 
+	{	Scanner lineSelector = newScanner()
+	;	String lineToParse
+	;	Scanner lineParser
+	;	String informationFound = "0";
+	;	ArrayList<Integer> testScoresList = new ArrayList<Integer>()
+	;	boolean skipStudent = true;
+	;	int testAverage = 0;
+	
+	
+		while (lineSelector.hasNextLine()) 
+		{
+			System.out.println("While loop started");
+			
+			lineToParse = lineSelector.nextLine();
+			lineParser = new Scanner(lineToParse); // we go t
+			lineParser.useDelimiter(delimiter);
+			
+			for (int i = 0; i < index; ++i) // for each "index" value the user inputs, move to the next row.
+			{
+				
+			if (lineParser.hasNext()) // move the line parser to the next column. If it doesn't have another column to move to, we know that this student doesn't have data for the given test and we skip them.
+			{
+				informationFound = lineParser.next();
+				skipStudent = false;
+				System.out.println("Moved line parser to next column. Value stored: " + informationFound );
+			} else {
+				skipStudent = true; break;
+			}
+			}
+			
+			System.out.println(Integer.parseInt(informationFound));
+			
+			System.out.println("Skip student? " + skipStudent);
+			
+			if (skipStudent = false) //something about this loop causes it to be skipped every time. please fix!
+			{	
+			try // store the found value. add it to the list.
+			{	System.out.println("Adding " + Integer.parseInt(informationFound));
+				testScoresList.add(Integer.parseInt(informationFound));
+				
+			} 
+			catch (Exception FinalNumberFormatException) // if the value we're trying to read is not an integer, something has gone catastrophically wrong.
+			{
+				System.out.println("Attempted to read a value which is not an integer! Results may not be accurate! Please check your CSV file...");
+			} 
+			}	
+			
+
+		}
+		
+		for (int i = 0; i < testScoresList.size(); ++i) 
+		{			
+			testAverage += testScoresList.get(i);
+			
+			System.out.println("accumulated test score: " + testAverage);
+		}
+		
+		return(testAverage / testScoresList.size());
+		
+		
+		
+	}
+	
+	
 } 

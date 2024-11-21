@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><dc:date>2024-11-20T22:08:17.690000000</dc:date><meta:editing-duration>PT3H21S</meta:editing-duration><meta:editing-cycles>26</meta:editing-cycles><meta:generator>LibreOffice/24.8.3.2$Windows_X86_64 LibreOffice_project/48a6bac9e7e268aeb4c3483fcf825c94556d9f92</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="10" meta:object-count="0" meta:page-count="4" meta:paragraph-count="32" meta:word-count="641" meta:character-count="3943" meta:non-whitespace-character-count="3331"/></office:meta>
+<office:document xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:meta><dc:date>2024-11-21T10:45:56.666891671</dc:date><meta:editing-duration>PT3H1M11S</meta:editing-duration><meta:editing-cycles>27</meta:editing-cycles><meta:generator>LibreOffice/24.2.5.2$Linux_X86_64 LibreOffice_project/420$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="11" meta:object-count="0" meta:page-count="4" meta:paragraph-count="33" meta:word-count="670" meta:character-count="4100" meta:non-whitespace-character-count="3460"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">86431</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">79375</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">26769</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">16803</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">25204</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">15127</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">4590</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">87824</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">3806</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">80432</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">86431</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">26767</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">103232</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">79375</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">25202</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">94500</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -33,119 +33,117 @@
    </config:config-item-map-indexed>
   </config:config-item-set>
   <config:config-item-set config:name="ooo:configuration-settings">
-   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterName" config:type="string">Microsoft Print to PDF</config:config-item>
-   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
-   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
-   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
-   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAENPTVBBVF9EVVBMRVhfTU9ERRMARHVwbGV4TW9kZTo6VW5rbm93bgwAUFJJTlRFUl9OQU1FFgBNaWNyb3NvZnQgUHJpbnQgdG8gUERGCwBEUklWRVJfTkFNRRYATWljcm9zb2Z0IFByaW50IFRvIFBERg==</config:config-item>
-   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
-   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
-   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
-   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="AddFrameOffsets" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddParaLineSpacingToTableCells" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
-   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="NoGapAfterNoteNumber" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TableRowKeep" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="IgnoreHiddenCharsForLineCalculation" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">3571483</config:config-item>
-   <config:config-item config:name="RsidRoot" config:type="int">1645132</config:config-item>
-   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="TabOverMargin" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="TabOverSpacing" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ContinuousEndnotes" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ProtectBookmarks" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ProtectFields" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="HyphenateURLs" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="HeaderSpacingBelowLastPara" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="FrameAutowidthWithMorePara" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="GutterAtTop" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="FootnoteInColumnToPageEnd" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="ImagePreferredDPI" config:type="int">0</config:config-item>
-   <config:config-item config:name="AutoFirstLineIndentDisregardLineSpace" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="DoNotBreakWrappedTables" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="JustifyLinesWithShrinking" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="NoNumberingShowFollowBy" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="DropCapPunctuation" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UseVariableWidthNBSP" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ApplyTextAttrToEmptyLineAtEndOfParagraph" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ApplyParagraphMarkFormatToEmptyLineAtEndOfParagraph" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PaintHellOverHeaderFooter" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
-   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrintFaxName" config:type="string"/>
-   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintEmptyPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="NoNumberingShowFollowBy" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotBreakWrappedTables" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HyphenateURLs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ImagePreferredDPI" config:type="int">0</config:config-item>
+   <config:config-item config:name="FootnoteInColumnToPageEnd" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="GutterAtTop" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ContinuousEndnotes" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FrameAutowidthWithMorePara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AutoFirstLineIndentDisregardLineSpace" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverMargin" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyTextAttrToEmptyLineAtEndOfParagraph" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ProtectBookmarks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddFrameOffsets" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TableRowKeep" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+   <config:config-item config:name="JustifyLinesWithShrinking" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RsidRoot" config:type="int">1645132</config:config-item>
+   <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
+   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="HeaderSpacingBelowLastPara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string">Generic Printer</config:config-item>
+   <config:config-item config:name="AddParaLineSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">uAH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMApAAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luYWRqdXN0bWVudD0wLDAsJzAsMApjb2xvcmRlcHRoPTI0CmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4dERhdGEKUGFnZVNpemU6TGV0dGVyAAASAENPTVBBVF9EVVBMRVhfTU9ERQ8ARHVwbGV4TW9kZTo6T2ZmDABQUklOVEVSX05BTUUPAEdlbmVyaWMgUHJpbnRlcgsARFJJVkVSX05BTUUHAFNHRU5QUlQ=</config:config-item>
+   <config:config-item config:name="UseVariableWidthNBSP" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectFields" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="NoGapAfterNoteNumber" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DropCapPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">3621903</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
   </config:config-item-set>
  </office:settings>
  <office:scripts>
@@ -160,20 +158,19 @@
   <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Lohit Devanagari" svg:font-family="&apos;Lohit Devanagari&apos;"/>
   <style:font-face style:name="Lohit Devanagari1" svg:font-family="&apos;Lohit Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
-  <style:font-face style:name="Monospace" svg:font-family="Monospace" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Noto Sans CJK SC" svg:font-family="&apos;Noto Sans CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
   <style:font-face style:name="Noto Serif CJK SC" svg:font-family="&apos;Noto Serif CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
  </office:font-face-decls>
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:writing-mode="lr-tb" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0cm" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0cm" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="CA" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
   </style:default-style>
   <style:default-style style:family="paragraph">
-   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" fo:hyphenation-keep="auto" loext:hyphenation-keep-type="column" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="1.251cm" style:writing-mode="lr-tb"/>
+   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="1.251cm" style:writing-mode="lr-tb"/>
    <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="CA" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false" loext:hyphenation-no-last-word="false" loext:hyphenation-word-char-count="5" loext:hyphenation-zone="no-limit"/>
   </style:default-style>
   <style:default-style style:family="table">
@@ -333,6 +330,24 @@
   <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties fo:font-weight="normal" officeooo:rsid="00367f1b" officeooo:paragraph-rsid="00367f1b" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="003280c9" officeooo:paragraph-rsid="003280c9" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0033149b" officeooo:paragraph-rsid="0033149b" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00350751" officeooo:paragraph-rsid="00350751" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00367f1b" officeooo:paragraph-rsid="00367f1b" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="00367f1b" officeooo:paragraph-rsid="00367f1b" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0037440f" officeooo:paragraph-rsid="0037440f" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties officeooo:rsid="002b860f"/>
   </style:style>
@@ -343,37 +358,37 @@
    <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T4" style:family="text">
-   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="002eae6b" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T5" style:family="text">
-   <style:text-properties fo:color="#000000" loext:opacity="100%" style:font-name="Liberation Serif" fo:font-size="10pt" officeooo:rsid="002eae6b" fo:background-color="#e8f2fe" loext:char-shading-value="0" style:font-size-asian="10pt"/>
+   <style:text-properties fo:font-style="normal" fo:font-weight="normal" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T6" style:family="text">
-   <style:text-properties officeooo:rsid="002eae6b"/>
+   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T7" style:family="text">
    <style:text-properties fo:font-style="italic" officeooo:rsid="002eae6b" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T8" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="002eae6b" style:font-style-asian="normal" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="T9" style:family="text">
-   <style:text-properties fo:font-style="normal" fo:font-weight="normal" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
-  </style:style>
-  <style:style style:name="T10" style:family="text">
    <style:text-properties fo:font-style="italic" fo:font-weight="normal" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="T11" style:family="text">
+  <style:style style:name="T9" style:family="text">
    <style:text-properties fo:font-style="italic" fo:font-weight="bold" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
-   <style:graphic-properties style:run-through="foreground" style:wrap="none" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
+  <style:style style:name="T10" style:family="text">
+   <style:text-properties fo:color="#000000" loext:opacity="100%" style:font-name="Liberation Serif" fo:font-size="10pt" officeooo:rsid="002eae6b" fo:background-color="#e8f2fe" loext:char-shading-value="0" style:font-size-asian="10pt"/>
   </style:style>
-  <style:style style:name="fr2" style:family="graphic" style:parent-style-name="Graphics">
+  <style:style style:name="T11" style:family="text">
+   <style:text-properties officeooo:rsid="002eae6b"/>
+  </style:style>
+  <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
    <style:graphic-properties style:run-through="foreground" style:wrap="none" style:horizontal-pos="center" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
   </style:style>
-  <style:style style:name="fr3" style:family="graphic" style:parent-style-name="Graphics">
+  <style:style style:name="fr2" style:family="graphic" style:parent-style-name="Graphics">
    <style:graphic-properties style:run-through="foreground" style:wrap="none" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
+  </style:style>
+  <style:style style:name="fr3" style:family="graphic" style:parent-style-name="Graphics">
+   <style:graphic-properties style:run-through="foreground" style:wrap="none" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
   </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="21.59cm" fo:page-height="27.94cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="44" style:layout-grid-base-height="0.55cm" style:layout-grid-ruby-height="0cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="true" style:layout-grid-display="true" style:layout-grid-base-width="0.37cm" style:layout-grid-snap-to="true" style:footnote-max-height="0cm" loext:margin-gutter="0cm">
@@ -406,11 +421,11 @@
    <text:p text:style-name="P4">Describe the errors you’ve encountered while working on this assignment. What caused the error and how do you overcome the error?</text:p>
    <text:p text:style-name="P5">The errors I’ve encoutered while writing this program are too numerous to list indivudually. They almost exclusively involve my attempts to write to and from a CSV file.</text:p>
    <text:p text:style-name="P6">Just to name a few:</text:p>
-   <text:p text:style-name="P7"><text:span text:style-name="T3">- Logic Error: scanner.delimiter() returns the delimiter used by the scanner. scanner.</text:span><text:span text:style-name="T4">use</text:span><text:span text:style-name="T3">Delimiter(String) actually changes the delimiter.</text:span></text:p>
+   <text:p text:style-name="P7"><text:span text:style-name="T3">- Logic Error: scanner.delimiter() returns the delimiter used by the scanner. scanner.</text:span><text:span text:style-name="T6">use</text:span><text:span text:style-name="T3">Delimiter(String) actually changes the delimiter.</text:span></text:p>
    <text:p text:style-name="P6">- Syntax Error: I forgot how to properly write a try-catch loop, i wrote `try {} except() {}` which didn’t work because the proper syntax is `try{} catch(Exception ...) {}</text:p>
-   <text:p text:style-name="P8">- Runtime Error: I forced this one intentionally in order to test the above try-catch error handling, but I had to figure out <text:span text:style-name="T5">T</text:span>how NullPointerException works in relation to reading files with the Scanner class.</text:p>
+   <text:p text:style-name="P8">- Runtime Error: I forced this one intentionally in order to test the above try-catch error handling, but I had to figure out <text:span text:style-name="T10">T</text:span>how NullPointerException works in relation to reading files with the Scanner class.</text:p>
    <text:p text:style-name="P7"><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="P7"><draw:frame draw:style-name="fr1" draw:name="Image1" text:anchor-type="char" svg:width="17.59cm" svg:height="4.856cm" draw:z-index="0"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P7"><draw:frame draw:style-name="fr3" draw:name="Image1" text:anchor-type="char" svg:width="17.59cm" svg:height="4.856cm" draw:z-index="0"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABOUAAAFaCAYAAABR++mAAAAgAElEQVR4nOzdeXhN1/7H8fc+
        J+NJgggSQxAxJRHzPJYWNbRaittqq6MOhla1eqvVKq3qjFLV6apbtErRX6tcVbNSs8hgCiKI
        iCHzdM7Zvz8ShCJHVei9n9fznOeps/Ze67vW3uf0Od+stbZhmqbJRXJzsvH08r74bRERERER
@@ -1300,11 +1315,11 @@
       </office:binary-data>
      </draw:image>
     </draw:frame><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="P8">This was the <text:span text:style-name="T6">first version of the GradeBook class which didn’t throw any errors. My first attempts involved importing java.io.File, which forced me to use the </text:span><text:span text:style-name="T7">throws</text:span><text:span text:style-name="T8"> keyword, which caused issues when constructing a GradeBook object in CourseGrades.java (explicit vs implicit constructors? Constructor chaining? Far out of my depth.)</text:span></text:p>
-   <text:p text:style-name="P8"><text:span text:style-name="T8"/></text:p>
-   <text:p text:style-name="P9"><text:span text:style-name="T8"/></text:p>
-   <text:p text:style-name="P9"><text:soft-page-break/><text:span text:style-name="T8">L</text:span><text:span text:style-name="T3">ogic Error:</text:span><text:span text:style-name="T9"><text:line-break/>When writing my first method for GradeBook, </text:span><text:span text:style-name="T10">getStudents</text:span><text:span text:style-name="T9">, I realized that a Scanner cannot be returned to the beginning of a file. This meant that I had to create a new method which would create a new Scanner for every time that a Scanner was needed.</text:span></text:p>
-   <text:p text:style-name="P10"><draw:frame draw:style-name="fr1" draw:name="Image2" text:anchor-type="char" svg:width="17.59cm" svg:height="7.613cm" draw:z-index="1"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P8">This was the <text:span text:style-name="T11">first version of the GradeBook class which didn’t throw any errors. My first attempts involved importing java.io.File, which forced me to use the </text:span><text:span text:style-name="T7">throws</text:span><text:span text:style-name="T4"> keyword, which caused issues when constructing a GradeBook object in CourseGrades.java (explicit vs implicit constructors? Constructor chaining? Far out of my depth.)</text:span></text:p>
+   <text:p text:style-name="P8"><text:span text:style-name="T4"/></text:p>
+   <text:p text:style-name="P9"><text:span text:style-name="T4"/></text:p>
+   <text:p text:style-name="P9"><text:soft-page-break/><text:span text:style-name="T4">L</text:span><text:span text:style-name="T3">ogic Error:</text:span><text:span text:style-name="T5"><text:line-break/>When writing my first method for GradeBook, </text:span><text:span text:style-name="T8">getStudents</text:span><text:span text:style-name="T5">, I realized that a Scanner cannot be returned to the beginning of a file. This meant that I had to create a new method which would create a new Scanner for every time that a Scanner was needed.</text:span></text:p>
+   <text:p text:style-name="P10"><draw:frame draw:style-name="fr3" draw:name="Image2" text:anchor-type="char" svg:width="17.59cm" svg:height="7.613cm" draw:z-index="1"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABOQAAAIeCAYAAAAbGNBZAAAgAElEQVR4nOzdeZyN5f/H8dd9
        zuyLfRk7g8EgW5YYyZ4tUhGJFopsSZZSQqVoQSVLlESL+KKsvyxjSQjD2NexL2Nswxgzc865
        fn/YhmZTOsT7+XjM4/FtrnNf9+e67nNO33l3XfdtGWMMt53h8IKNvPxndsYOKEgB2+0/g4iI
@@ -2627,7 +2642,7 @@
       </office:binary-data>
      </draw:image>
     </draw:frame>This screenshot shows both how I create Scanners in GradeBook.java, and how I use them. Thankfully this allows us to go through the CSV file as many times as we like</text:p>
-   <text:p text:style-name="P10"><draw:frame draw:style-name="fr2" draw:name="Image3" text:anchor-type="char" svg:width="8.361cm" svg:height="2.064cm" draw:z-index="2"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P10"><draw:frame draw:style-name="fr1" draw:name="Image3" text:anchor-type="char" svg:width="8.361cm" svg:height="2.064cm" draw:z-index="2"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAATwAAABOCAYAAAC9mKp4AAAY30lEQVR4nO2deXxMV/+An5nJ
        JpKokCAEiS221pqofSu1tkVtVdqi9pRW0ZZQ+9aWtiq0StVWS9GiVTt9lVqilghCJBIiQhIR
        2Wbm+/sjezLJjPfVn5DzfD7zR+bMOffcM+d877nn3HmiERFBoVAoigDaJ10BhUKh+P9CBTyF
@@ -2752,8 +2767,8 @@
     </draw:frame>Logic error I noticed, as I was writing this error log: newScanner() is Public. It should be Private.</text:p>
    <text:p text:style-name="P10"/>
    <text:p text:style-name="P10"/>
-   <text:p text:style-name="P11">(apologies for the change in font, I’m using eclipse on my home computer) When trying to implement writing to the CSV file, I found out that you have to use the <text:span text:style-name="T4">File</text:span><text:span text:style-name="T3"> class in order to point to the file to write to.</text:span></text:p>
-   <text:p text:style-name="P11"><draw:frame draw:style-name="fr3" draw:name="Image4" text:anchor-type="char" svg:x="2.85cm" svg:y="-0.109cm" svg:width="12.331cm" svg:height="0.767cm" draw:z-index="3"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P11">(apologies for the change in font, I’m using eclipse on my home computer) When trying to implement writing to the CSV file, I found out that you have to use the <text:span text:style-name="T6">File</text:span><text:span text:style-name="T3"> class in order to point to the file to write to.</text:span></text:p>
+   <text:p text:style-name="P11"><draw:frame draw:style-name="fr2" draw:name="Image4" text:anchor-type="char" svg:x="2.85cm" svg:y="-0.109cm" svg:width="12.331cm" svg:height="0.767cm" draw:z-index="3"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAdIAAAAdCAYAAAAeqe3jAAAACXBIWXMAAA7DAAAOxQGRNQ/i
        AAAPdklEQVR4nO2de0xVV77HP5tHGR5XHKgOF+UgqMCdEq2t0wEEH62YUck4ttqQKVIfmJgO
        Tm5ip5hp0Xa0iTSazFy1Yy6+qsxcb7FObRAbS8cKFrB2qp3QWwELcg5SrIJCFEQ47PvH3ufF
@@ -2832,8 +2847,8 @@
       </office:binary-data>
      </draw:image>
     </draw:frame><text:span text:style-name="T3">While (String, boolean) is technically a valid constructor for FileWriter, I get a FileNotFoundException after running this code. </text:span></text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">For context, in my </text:span><text:span text:style-name="T4">newScanner() </text:span><text:span text:style-name="T3">method I use an InputStream object to point to the file: </text:span></text:p>
-   <text:p text:style-name="P11"><draw:frame draw:style-name="fr3" draw:name="Image5" text:anchor-type="char" svg:x="2.351cm" svg:y="0cm" svg:width="12.887cm" svg:height="0.661cm" draw:z-index="4"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P11"><text:span text:style-name="T3">For context, in my </text:span><text:span text:style-name="T6">newScanner() </text:span><text:span text:style-name="T3">method I use an InputStream object to point to the file: </text:span></text:p>
+   <text:p text:style-name="P11"><draw:frame draw:style-name="fr2" draw:name="Image5" text:anchor-type="char" svg:x="2.351cm" svg:y="0cm" svg:width="12.887cm" svg:height="0.661cm" draw:z-index="4"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAecAAAAZCAYAAAAL4uaJAAAACXBIWXMAAA7DAAAOxgG6GFwh
        AAARgklEQVR4nO2de1BUV5rAf3cFQVtoaUUEoSECji4xpkyJHUBjQXyhqRlTpcyCjtGKj0pi
        bRyyZcwkm5o4E81umGSKdaMmoyYiNY5TNUmN4itQ8QEhWKZGjWVWkWnoDshDoNGOoFB3/7j3
@@ -2924,7 +2939,7 @@
     </draw:frame><text:span text:style-name="T3">So I’ll have to add yet another class to GradeBook.java</text:span></text:p>
    <text:p text:style-name="P11"><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P11"><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="P12"><text:soft-page-break/><text:span text:style-name="T3">When trying to implement the File class, i did a quick test:</text:span><draw:frame draw:style-name="fr3" draw:name="Image6" text:anchor-type="char" svg:x="4.098cm" svg:y="0.677cm" svg:width="9.394cm" svg:height="0.9cm" draw:z-index="5"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P12"><text:soft-page-break/><text:span text:style-name="T3">When trying to implement the File class, i did a quick test:</text:span><draw:frame draw:style-name="fr2" draw:name="Image6" text:anchor-type="char" svg:x="4.098cm" svg:y="0.677cm" svg:width="9.394cm" svg:height="0.9cm" draw:z-index="5"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAWMAAAAiCAYAAACKsbicAAAACXBIWXMAAA7DAAAOxgG6GFwh
        AAAWGElEQVR4nO2de1RU17nAf+eKoowwihKMMsNDUFyamJeGyCMENCKamqTL2ItofNTW5Gpv
        UpqFucZkJSZV75U2LbYxD5Uocmvoas2tKD5Aw8MQbZOY6IoCDjCD+ACRR0YdAjn3j3NmmBnm
@@ -3035,8 +3050,8 @@
       </office:binary-data>
      </draw:image>
     </draw:frame><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">Creating a new File (object) and then asking for the directory returned the following:</text:span></text:p>
-   <text:p text:style-name="P12"><draw:frame draw:style-name="fr3" draw:name="Image7" text:anchor-type="char" svg:x="3.62cm" svg:y="-0.141cm" svg:width="10.134cm" svg:height="0.529cm" draw:z-index="6"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P16">Creating a new File (object) and then asking for the directory returned the following:</text:p>
+   <text:p text:style-name="P12"><draw:frame draw:style-name="fr2" draw:name="Image7" text:anchor-type="char" svg:x="3.62cm" svg:y="-0.141cm" svg:width="10.134cm" svg:height="0.529cm" draw:z-index="6"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAX8AAAAUCAYAAABlAD1KAAAACXBIWXMAAA7DAAAOxQGRNQ/i
        AAAIoElEQVR4nO2cT2rrThLHvxp+x5BlAtYlJC+8sLSZgVkKDIEE4oUvoE3AwYZsdAEtbIgh
        YNAVLC+8sHUJGTKxdQ/NQv9af7otKXGS99IfyMKv3V3V1VXV1d3mCf/+z3/D4Pw/cDgcDuf3
@@ -3082,18 +3097,18 @@
        GsGQd7feAAAAAElFTkSuQmCC
       </office:binary-data>
      </draw:image>
-    </draw:frame><text:span text:style-name="T3">As opposed to where gradebook.csv SHOULD be located, which is </text:span><text:span text:style-name="T4">.../git/CS20P2F2024/chapter9/</text:span><text:span text:style-name="T11">mastery</text:span><text:span text:style-name="T4">/gradebook.csv</text:span></text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">This behaviour is bizzare to me, but partially fixed by a simple “/src/mastery/” before </text:span><text:span text:style-name="T4">fileName</text:span></text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">Unfortunately, this means that my program is not portable. If I decide that I have the time, I’ll go back and fix this.</text:span></text:p>
+    </draw:frame><text:span text:style-name="T3">As opposed to where gradebook.csv SHOULD be located, which is </text:span><text:span text:style-name="T6">.../git/CS20P2F2024/chapter9/</text:span><text:span text:style-name="T9">mastery</text:span><text:span text:style-name="T6">/gradebook.csv</text:span></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="T3">This behaviour is bizzare to me, but partially fixed by a simple “/src/mastery/” before </text:span><text:span text:style-name="T6">fileName</text:span></text:p>
+   <text:p text:style-name="P16">Unfortunately, this means that my program is not portable. If I decide that I have the time, I’ll go back and fix this.</text:p>
    <text:p text:style-name="P12"><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">Also, and even more bizzarely, when I run addStudent(), the student isn’t added to gradebook.csv right away. I have to tab into gradebook.csv inside of Eclipse for the update to then register. </text:span></text:p>
-   <text:p text:style-name="P13"><text:span text:style-name="T3">This is an Eclipse specific issue! It can be fixed by going to `Window &gt; Prefrences &gt; General &gt; Workspace and click “Refresh using native hooks or polling”. It won’t poll instantly, but it’s better than never.</text:span></text:p>
-   <text:p text:style-name="P13"><text:span text:style-name="T3">Eclipse also happens to have plugins for programatically refreshing files, but I’d rather not deal with IDE extensions, it’ll only complicate things.</text:span></text:p>
-   <text:p text:style-name="P14"><text:span text:style-name="T3">For simplicity, I’ve added instructions to manually refresh files for Eclipse users in my output.</text:span></text:p>
+   <text:p text:style-name="P16">Also, and even more bizzarely, when I run addStudent(), the student isn’t added to gradebook.csv right away. I have to tab into gradebook.csv inside of Eclipse for the update to then register. </text:p>
+   <text:p text:style-name="P17">This is an Eclipse specific issue! It can be fixed by going to `Window &gt; Prefrences &gt; General &gt; Workspace and click “Refresh using native hooks or polling”. It won’t poll instantly, but it’s better than never.</text:p>
+   <text:p text:style-name="P17">Eclipse also happens to have plugins for programatically refreshing files, but I’d rather not deal with IDE extensions, it’ll only complicate things.</text:p>
+   <text:p text:style-name="P18">For simplicity, I’ve added instructions to manually refresh files for Eclipse users in my output.</text:p>
    <text:p text:style-name="P14"><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P14"><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="P14"><text:span text:style-name="T3">For whatever reason, this bit of code executed gradeBook.addStudent() immediately, rather than waiting for a user input first.</text:span></text:p>
-   <text:p text:style-name="P14"><draw:frame draw:style-name="fr2" draw:name="Image8" text:anchor-type="char" svg:width="9.342cm" svg:height="1.746cm" draw:z-index="7"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P18">For whatever reason, this bit of code executed gradeBook.addStudent() immediately, rather than waiting for a user input first.</text:p>
+   <text:p text:style-name="P14"><draw:frame draw:style-name="fr1" draw:name="Image8" text:anchor-type="char" svg:width="9.342cm" svg:height="1.746cm" draw:z-index="7"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAWEAAABCCAYAAACGsGf7AAAACXBIWXMAAA7DAAAOxAGILj6j
        AAAY/0lEQVR4nO2dfVBUV5qHnxshQNMIEZWPCIqgMI4xGjMkQXSMohOMlcRMdtYx0VWIFbU0
        OykzYsUkrqOx1I01u9FSM35GJ8TdcaJJJeIgRiNo1BmVcU1GECR2GwWxDWLzNYB3/7i3P+m+
@@ -3217,8 +3232,8 @@
       </office:binary-data>
      </draw:image>
     </draw:frame><text:span text:style-name="T3">This doesn’t happen with userInput.next() .</text:span></text:p>
-   <text:p text:style-name="P14"><text:span text:style-name="T3">For some God forsaken reason, running userInput.nextLine() directly afterwards newStudentName = userInput.nextLine();. I’m starting to get a feel for what spaghetti code is like.</text:span></text:p>
-   <text:p text:style-name="P14"><draw:frame draw:style-name="fr3" draw:name="Image9" text:anchor-type="char" svg:x="-0.044cm" svg:y="-0.208cm" svg:width="17.59cm" svg:height="0.691cm" draw:z-index="8"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P18">For some God forsaken reason, running userInput.nextLine() directly afterwards newStudentName = userInput.nextLine();. I’m starting to get a feel for what spaghetti code is like.</text:p>
+   <text:p text:style-name="P14"><draw:frame draw:style-name="fr2" draw:name="Image9" text:anchor-type="char" svg:x="-0.044cm" svg:y="-0.208cm" svg:width="17.59cm" svg:height="0.691cm" draw:z-index="8"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABCoAAAAqCAYAAAB1GrrZAAAACXBIWXMAAA7DAAAOxAGILj6j
        AAAfMUlEQVR4nO2df3RU1b3oP0fxomQSbqE6k4QEcPKD10dvBF4RIQQKgZLB3lXuqk8WFipg
        LLKKbRd9K/hQWYhew12yblv6NBUUHikpXl3V69UMLz8okgmiLqj02Vfyix8ZCRlQKslEy+XH
@@ -3373,8 +3388,8 @@
      </draw:image>
     </draw:frame><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P14"><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T3">Regular expressions were, as usual, difficult. It turns out that you need to use 2 escape characters (backslashes) rather than one in order to include square brackets within your regular expression.</text:span></text:p>
-   <text:p text:style-name="P15"><draw:frame draw:style-name="fr3" draw:name="Image10" text:anchor-type="char" svg:x="5.764cm" svg:y="-0.048cm" svg:width="5.662cm" svg:height="0.714cm" draw:z-index="9"><draw:image draw:mime-type="image/png">
+   <text:p text:style-name="P19">Regular expressions were, as usual, difficult. It turns out that you need to use 2 escape characters (backslashes) rather than one in order to include square brackets within your regular expression.</text:p>
+   <text:p text:style-name="P15"><draw:frame draw:style-name="fr2" draw:name="Image10" text:anchor-type="char" svg:x="5.764cm" svg:y="-0.048cm" svg:width="5.662cm" svg:height="0.714cm" draw:z-index="9"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAANYAAAAbCAYAAAAAlXFEAAAACXBIWXMAAA7EAAAOxgGnHWyZ
        AAAGiklEQVR4nO2bbUxUVxrHf2eY6QAqJJ348qGj6xYQUxKTZkspFLQVSRE+LJs2a7qFKq4J
        22R3P9BkmlRXje5GG/lk0jVhI0Z2W5M2a7NBaRDrCxkFu2myDdsiSLsybFvwpSk7lk6Gmbsf
@@ -3411,7 +3426,76 @@
       </office:binary-data>
      </draw:image>
     </draw:frame><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="P15"><text:soft-page-break/><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P21"><text:soft-page-break/><text:span text:style-name="T3">I spent so long trying to figure out why this loop wouldn’t start. I don’t know how I ended up using an assignment operator instead of the equality operator.</text:span></text:p>
+   <text:p text:style-name="P15"><draw:frame draw:style-name="fr1" draw:name="Image11" text:anchor-type="char" svg:width="5.556cm" svg:height="0.794cm" draw:z-index="10"><draw:image draw:mime-type="image/png">
+      <office:binary-data>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
+       2AAAAABJRU5ErkJggg==
+      </office:binary-data>
+     </draw:image>
+    </draw:frame></text:p>
   </office:text>
  </office:body>
 </office:document>

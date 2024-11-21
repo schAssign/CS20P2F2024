@@ -25,7 +25,7 @@ public class CourseGrades {
 	;	String[] studentsList
 	;	String newStudentName
 	;	int[] gradesToPass
-	;
+	;	int userInputtedIndex;
 	
 		
 		while(true) 
@@ -34,7 +34,7 @@ public class CourseGrades {
 					+ "2. Display list of students\n"
 					+ "3. View student information by student index\n"
 					+ "4. View student grade average by student index\n"
-					+ "5. View student information by name (unimplemented)\n"
+					+ "5. View class average for test\n"
 					+ "6. Add student to the gradebook\n"
 					
 					+ "0. End program.");
@@ -48,9 +48,7 @@ public class CourseGrades {
 			
 			
 			case 1: 
-				gradeBook.displayGradeBook(); break;
-			
-				
+				gradeBook.displayGradeBook(); break;				
 				
 			case 2: 
 				studentsList = gradeBook.getStudents(); 
@@ -60,12 +58,17 @@ public class CourseGrades {
 				
 			case 3:
 				System.out.print("Please enter student index: ");
-				System.out.println(gradeBook.getStudent(userInput.nextInt()));
+				System.out.println(gradeBook.getStudent((userInput.nextInt())));
 				break;
 				
 			case 4: 
-				System.out.print(gradeBook.studentGradeAverage(1));
+				System.out.print("Please enter student index: ");
+				userInputtedIndex = userInput.nextInt();
+				System.out.println("Student: " + gradeBook.getStudent(userInputtedIndex) + "\nAverage: " + gradeBook.studentGradeAverage(userInputtedIndex));
 				break;
+				
+			case 5:
+				System.out.print(gradeBook.testGradeAverage(2)); break;
 				
 			case 6: 
 				System.out.print("Student's name: ");
