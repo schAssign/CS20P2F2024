@@ -1,6 +1,8 @@
 package mastery;
 
-import java.util.Scanner;
+import java.util.Scanner; import java.io.FileWriter;
+import java.io.IOException; import java.io.File;
+import java.util.Arrays;
 
 public class GradeBook {
 	private static final String fileName = "gradebook.csv";
@@ -60,8 +62,9 @@ public class GradeBook {
 	
 	/**
 	 * Prints the gradebook to the console, barely formatted. It's effectively like opening up a text editor to look at the CSV file.
+	 * This is equivalent to showGrades(), as recommended by the textbook.
 	 */
-	public void displayGradeBook() 
+	public void displayGradeBook()
 	{
 		Scanner newScanner = newScanner();
 		while(newScanner.hasNextLine()) {
@@ -116,4 +119,56 @@ public class GradeBook {
 		
 	}
 	
-}
+	
+	
+	
+	/**
+	 * In a new line of the CSV file, add a student to the first column and their individual grades in the next column.
+	 * @param String name
+	 * @param int[] grades
+	 * @throws IOException
+	 */
+	public void addStudent(String name, int[] grades) throws IOException {
+		try {
+			File fileToWrite = new File("src/mastery/" + fileName);
+			System.out.println("New student written to " + fileToWrite.getAbsolutePath());
+			System.out.println("If you're running this program in Eclipse, files may not refresh automatically! Go to your Project Explorer, press CTRL+A, and then press F5 to refresh files!");
+			FileWriter fileWriter = new FileWriter(fileToWrite, true); // "true" sets the filewriter to append mode.  "false" WILL OVERWRITE!
+			fileWriter.write("\n" + name + "," + Arrays.toString(grades).replaceAll("[\\]\\[ ]", "")); // create a new line. write the name, add a comma. Then display the grades Array in it's default format (which already has commas). we simply remove the whitespace and square brackets.
+			
+			fileWriter.close(); }
+		
+		catch(Exception FileNotFoundException) {
+			System.out.println("File not found!");}
+	}
+	
+	
+	/* UNFINISHED: LOOK AT https://stackoverflow.com/questions/6456219/java-checking-if-parseint-throws-exception */
+	public int studentGradeAverage(int index) 
+	{	Scanner studentInformationFinder = newScanner()
+	;	int gradeAggregator = 0
+	;	int numberOfColumns = 0; // negative one, because we're assuming at least one row contains the student name
+		
+		if (index >= amountOfRows()) {
+			System.out.println("NoSuchElementException prevented. Selected student could not be found.");
+			return(0);
+		}
+			
+		for (int i = 0; i < index; ++i)  // go past all of the lines below the student's row number
+		{
+			studentInformationFinder.nextLine();
+		}
+		
+		while(studentInformationFinder.hasNext()) // go through all columns in the row. collect and add the data
+		{	String informationFound = studentInformationFinder.next();
+
+			if(Integer.parseInt(informationFound) =/ false) {
+				numberOfColumns +=1;
+				gradeAggregator += studentInformationFinder.nextInt();
+			}
+		}
+		
+		return(gradeAggregator/numberOfColumns); // get the average of all grades found, and return it
+		
+	}
+} 
