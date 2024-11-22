@@ -26,6 +26,7 @@ public class CourseGrades {
 	;	String newStudentName
 	;	int[] gradesToPass
 	;	int userInputtedIndex;
+	;	String confirmationPrompt;
 	
 		
 		while(true) 
@@ -36,6 +37,7 @@ public class CourseGrades {
 					+ "4. View student grade average by student index\n"
 					+ "5. View class average for test\n"
 					+ "6. Add student to the gradebook\n"
+					+ "7. Delete student from gradebook by index\n"
 					
 					+ "0. End program.");
 			
@@ -58,17 +60,20 @@ public class CourseGrades {
 				
 			case 3:
 				System.out.print("Please enter student index: ");
-				System.out.println(gradeBook.getStudent((userInput.nextInt())));
+				userInputtedIndex = userInput.nextInt();
+				System.out.println(gradeBook.getStudent(userInputtedIndex));
 				break;
 				
 			case 4: 
 				System.out.print("Please enter student index: ");
 				userInputtedIndex = userInput.nextInt();
-				System.out.println("Student: " + gradeBook.getStudent(userInputtedIndex) + "\nAverage: " + gradeBook.studentGradeAverage(userInputtedIndex));
+				System.out.println(gradeBook.getStudent(userInputtedIndex) + "\nAverage: " + gradeBook.studentGradeAverage(userInputtedIndex));
 				break;
 				
 			case 5:
-				System.out.print(gradeBook.testGradeAverage(2)); break;
+				System.out.print("Please enter test number: ");
+				userInputtedIndex = userInput.nextInt();
+				System.out.println("Student average for test #" + userInputtedIndex + ": " + gradeBook.testGradeAverage(userInputtedIndex)); break;
 				
 			case 6: 
 				System.out.print("Student's name: ");
@@ -86,6 +91,22 @@ public class CourseGrades {
 				
 				gradeBook.addStudent(newStudentName, gradesToPass); break;
 				
+			case 7:
+				System.out.print("Please enter student index: ");
+				userInputtedIndex = userInput.nextInt();
+				System.out.println(gradeBook.getStudent(userInputtedIndex));
+				System.out.println("Are you sure you want to delete this student? (y/N)\n");
+				confirmationPrompt = userInput.next().toLowerCase();
+				
+				// System.out.println(confirmationPrompt);
+				
+				if (confirmationPrompt.equals("y")) {
+					gradeBook.replaceLineInCsv(userInputtedIndex); break;
+				} else {
+					break;
+				}
+
+				
 				
 				
 			case 0: System.exit(0);
@@ -100,3 +121,9 @@ public class CourseGrades {
 	}
 	
 }
+
+/* Screen Dump
+
+(please see screendump.txt located within the Chapter 9 Mastery package; the screen dump is so large I don't think I could reasonably put it here!)
+
+*/

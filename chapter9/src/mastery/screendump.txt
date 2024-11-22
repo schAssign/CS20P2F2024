@@ -1,0 +1,222 @@
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 1
+
+Stefan,50,50,50,50,50,
+stephen,26,35,43,
+errortest,1,2,
+studentextra,1,2,3,
+updatetest,10,20,
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 3
+
+Please enter student index: 2
+Student: errortest
+Grades: 1|2|
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 7
+
+Please enter student index: 2
+Student: errortest
+Grades: 1|2|
+Are you sure you want to delete this student? (y/N)
+
+the
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 2
+
+Stefan
+stephen
+errortest
+studentextra
+updatetest
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 7
+
+Please enter student index: 2
+Student: errortest
+Grades: 1|2|
+Are you sure you want to delete this student? (y/N)
+
+y
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 1
+
+Stefan,50,50,50,50,50,
+stephen,26,35,43,
+studentextra,1,2,3,
+updatetest,10,20,
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 4
+
+Please enter student index: 1
+Student: stephen
+Grades: 26|35|43|
+Average: 34
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 3
+
+Please enter student index: 6
+NoSuchElementException prevented. Selected student could not be found.
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 3
+
+Please enter student index: 0
+Student: Stefan
+Grades: 50|50|50|50|50|
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 1
+
+Stefan,50,50,50,50,50,
+stephen,26,35,43,
+studentextra,1,2,3,
+updatetest,10,20,
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 5
+
+Please enter test number: 3
+Student average for test #3: 32
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 5
+
+Please enter test number: 7
+No test scores found for the given index!
+Student average for test #7: 0
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 6
+
+Student's name: screendumptest
+How many grades does this student have? 3
+Grade #1: 26
+Grade #2: 27
+Grade #3: 28
+New student written to /home/stefaniso/git/CS20P2F2024/chapter9/src/mastery/gradebook.csv
+If you're running this program in Eclipse, files may not refresh automatically! Go to your Project Explorer, press CTRL+A, and then press F5 to refresh files!
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 1
+
+Stefan,50,50,50,50,50,
+stephen,26,35,43,
+studentextra,1,2,3,
+updatetest,10,20,
+screendumptest,26,27,28,
+
+1. View full gradebook
+2. Display list of students
+3. View student information by student index
+4. View student grade average by student index
+5. View class average for test
+6. Add student to the gradebook
+7. Delete student from gradebook by index
+0. End program.
+What would you like to do? 0

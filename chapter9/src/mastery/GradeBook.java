@@ -7,6 +7,7 @@ import java.util.Arrays; import java.util.ArrayList;
 public class GradeBook {
 	private static final String fileName = "gradebook.csv";
 	private static final String delimiter = ","; // i'd make this a char but Scanner.useDelimiter("") calls for a String
+	private static File fileToWrite = new File("src/mastery/" + fileName);
 	
 	
 	
@@ -14,7 +15,6 @@ public class GradeBook {
 	 * Constructor. Creates a new GradeBook object 
 	 */
 	public GradeBook() {}
-	
 	
 	
 	/**
@@ -131,11 +131,11 @@ public class GradeBook {
 	 */
 	public void addStudent(String name, int[] grades) throws IOException {
 		try {
-			File fileToWrite = new File("src/mastery/" + fileName);
+			//File fileToWrite = new File("src/mastery/" + fileName); // moved to the constructor.
 			System.out.println("New student written to " + fileToWrite.getAbsolutePath());
 			System.out.println("If you're running this program in Eclipse, files may not refresh automatically! Go to your Project Explorer, press CTRL+A, and then press F5 to refresh files!");
 			FileWriter fileWriter = new FileWriter(fileToWrite, true); // "true" sets the filewriter to append mode.  "false" WILL OVERWRITE!
-			fileWriter.write("\n" + name + "," + Arrays.toString(grades).replaceAll("[\\]\\[ ]", "" + ",")); // create a new line. write the name, add a comma. Then display the grades Array in it's default format (which already has commas). we simply remove the whitespace and square brackets.
+			fileWriter.write("\n" + name + Arrays.toString(grades).replaceAll("[\\]\\[]", ",").replaceAll(" ", "")); // create a new line. write the name, add a comma. Then display the grades Array in it's default format (which already has commas). we simply remove the whitespace and replace the square brackets with commas..
 			
 			fileWriter.close(); }
 		
@@ -150,7 +150,7 @@ public class GradeBook {
 	 * @param Student index
 	 * @return Grade average
 	 */
-	public int studentGradeAverage(int index) 
+	public int studentGradeAverage(int index) // integer division is used.
 	{	Scanner studentInformationFinder = newScanner()
 	;	int gradeAggregator = 0
 	;	int numberOfColumns = 0 // we increment this every time an integer is found in the row; LEAVE IT AT 0!
@@ -191,6 +191,12 @@ public class GradeBook {
 	}
 	
 	
+	
+	/**
+	 * Finds the average grade on a given test, given the test number. Returns as an integer (integer division is done). 
+	 * @param index
+	 * @return
+	 */
 	public int testGradeAverage(int index) 
 	{	Scanner lineSelector = newScanner()
 	;	String lineToParse
@@ -203,37 +209,37 @@ public class GradeBook {
 	
 		while (lineSelector.hasNextLine()) 
 		{
-			System.out.println("While loop started");
+			//System.out.println("While loop started");
 			
 			lineToParse = lineSelector.nextLine();
 			lineParser = new Scanner(lineToParse); // we go t
 			lineParser.useDelimiter(delimiter);
 			
-			for (int i = 0; i < index; ++i) // for each "index" value the user inputs, move to the next row.
+			for (int i = 0; i <= index; ++i) // for each "index" value the user inputs, move to the next row.
 			{
 				
 			if (lineParser.hasNext()) // move the line parser to the next column. If it doesn't have another column to move to, we know that this student doesn't have data for the given test and we skip them.
 			{
 				informationFound = lineParser.next();
 				skipStudent = false;
-				System.out.println("Moved line parser to next column. Value stored: " + informationFound );
+				//System.out.println("Moved line parser to next column. Value stored: " + informationFound );
 			} else {
 				skipStudent = true; break;
 			}
 			}
 			
-			System.out.println(Integer.parseInt(informationFound));
+			//System.out.println((informationFound));
 			
-			System.out.println("Skip student? " + skipStudent);
+			//System.out.println("Skip student? " + skipStudent);
 			
-			if (skipStudent = false) //something about this loop causes it to be skipped every time. please fix!
+			if (skipStudent == false)
 			{	
 			try // store the found value. add it to the list.
-			{	System.out.println("Adding " + Integer.parseInt(informationFound));
+			{	//System.out.println("Adding " + Integer.parseInt(informationFound));
 				testScoresList.add(Integer.parseInt(informationFound));
 				
 			} 
-			catch (Exception FinalNumberFormatException) // if the value we're trying to read is not an integer, something has gone catastrophically wrong.
+			catch (Exception NumberFormatException) // if the value we're trying to read is not an integer, something has gone catastrophically wrong.
 			{
 				System.out.println("Attempted to read a value which is not an integer! Results may not be accurate! Please check your CSV file...");
 			} 
@@ -246,14 +252,81 @@ public class GradeBook {
 		{			
 			testAverage += testScoresList.get(i);
 			
-			System.out.println("accumulated test score: " + testAverage);
+			//System.out.println("accumulated test score: " + testAverage);
 		}
 		
-		return(testAverage / testScoresList.size());
-		
-		
+		if (testScoresList.size() != 0) 
+		{
+			return(testAverage / testScoresList.size());
+		}
+		else
+		{
+			System.out.println("No test scores found for the given index!"); return 0;
+		}
 		
 	}
 	
 	
+	
+	/**
+	 * Returns the full CSV file as a string. To be used in conjuction with other methods in order to fully edit the CSV file.
+	 * @return
+	 */
+	private String putCsvIntoMemory() 
+	{	Scanner scanner = newScanner()
+	;	String csvAsString = ""
+	;
+		while (scanner.hasNextLine()) 
+		{
+			csvAsString += (scanner.nextLine() + "\n");
+		}
+		
+		return csvAsString;
+		
+	}
+	
+	
+	/**
+	 * Will delete a line from a String representing the CSV file AND ALL DUPLICATE LINES WHICH MATCH THE LINE! be CAREFUL!
+	 */
+	private String removeLineInCsv(int index) 
+	{	String wholeFile = putCsvIntoMemory()
+	;	Scanner findLineToRemove = new Scanner(wholeFile)
+	;	String lineToRemove = ""
+	;
+	
+	if (index >= amountOfRows()) {
+		System.out.println("NoSuchElementException prevented. Selected row could not be found.");
+		return "";
+	}
+	
+	for (int i = 0; i < index; ++i)  // go past all of the lines below the student's row number
+	{
+		findLineToRemove.nextLine();
+	}
+	
+	lineToRemove = findLineToRemove.nextLine();
+	
+	//System.out.println("Removing line \"" + lineToRemove + "\"");
+	//System.out.println("File currently in memory: \n" + wholeFile.replace(lineToRemove, ""));
+	
+	return wholeFile.replace(lineToRemove, "");	
+	}
+	
+	
+	/**
+	 * BE DANGEROUS WHEN WORKING ON YOUR DATABASE! YOU RISK DATA LOSS IF YOU PLAY AROUND WITH THIS!
+	 * This method puts the CSV file into memory, deletes the specified line from it using string methods, and then replaces the CSV file with the edited version in memory.
+	 * @throws IOException 
+	 */
+	public void replaceLineInCsv(int index) throws IOException 
+	{	FileWriter fileWriter = new FileWriter(fileToWrite, false) // `false` SETS THE FILEWRITE TO OVERWRITE MODE! THIS WILL REPLACE YOUR FILES.
+	;	String textToOverwriteWith = removeLineInCsv(index)
+	;
+		fileWriter.write(textToOverwriteWith.trim().replaceAll("\n+", "\n")); // overwrite the CSV, with no beginning/end spaces, and no blank lines.
+		fileWriter.close();
+	
+		//System.out.println("Overwriting file with text:\n" + textToOverwriteWith);
+		
+	}
 } 

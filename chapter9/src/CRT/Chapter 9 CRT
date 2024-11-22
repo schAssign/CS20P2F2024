@@ -1,0 +1,34 @@
+1. What index value does the third element of an Array have?
+	- 2.
+	
+	
+	
+2. Write the declaration for an Array named `quantities` that stores 20 integers.
+	- int[] quantities = new int[20];
+	
+	
+	
+3. Write a declaration for an array named `heights` storing the numbers 1.65, 2.15, and 4.95
+	- double[] heights = {1.65, 2.15, 4.95};
+	
+	
+	
+4. Write a for-each statement that displays the integer values stored in an array named `grades`
+
+	for (int element : grades)	{
+	System.out.println(element);	}
+	
+
+	
+6. How does passing an entire array to a method differ from passing a single element of the array?
+	- When you pass an array to a method, the method references the memory address of the array. Thus, any changes made to the array within the method will change it outside of the method too
+
+	
+	
+7. Why are offset array indexes required in some cases?
+	- If the index has a meaning; for example, if you're rolling a dice and tallying up all of the results with value `1` by storing those results at index `1`
+	
+	
+	
+8. What output is displayed by the statements below?
+	- i
