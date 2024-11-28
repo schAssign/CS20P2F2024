@@ -16,7 +16,7 @@ public class BuildAThermostat {
         boolean greenButtonPreviousState = false;
         int thermostatSetTemperature = 21; // room temperature by default
 		int printTemperatureEvery_Seconds = 1;
-		int pollingSpeedInHertz = 10;
+		int pollingSpeedInHertz = 100;
 		int printTemperatureEvery_Refresh = printTemperatureEvery_Seconds * pollingSpeedInHertz;
 		int refreshNumber = 0;
 		
