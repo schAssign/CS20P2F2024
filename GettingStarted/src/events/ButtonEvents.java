@@ -38,7 +38,7 @@ public class ButtonEvents {
 
         //Keep program running
         while (true) {
-            Thread.sleep(2000);
+            Thread.sleep(5000);
         }
     }
 }
