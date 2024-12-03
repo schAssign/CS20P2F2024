@@ -23,7 +23,7 @@ public class TwoOrMoreSmartPhidgets {
          
          //Event | Event code runs when data input from the sensor changes. The following event is a state change event. The code will listen to the button (Digital Input Object) and only run the contain code when the button is pressed or released (state changes).
          redButton.addStateChangeListener(new DigitalInputStateChangeListener() {
-             public void onStateChange(DigitalInputStateChangeEvent e) {
+             public void onStateChange(DigitalInputStateChangeEvent e) {  
                  if (e.getState()) {
                 	 try {
                 		 System.out.println("Temperature 0: " + temperatureSensor0.getTemperature() + " °C");
