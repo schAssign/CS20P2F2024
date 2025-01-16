@@ -4,7 +4,9 @@ COMPUTER SCIENCE OPEN HOUSE PYTHON EXPERIMENT:
 
 1.  Modify this program to ask the user for their last name, and age. Print this information.
 
-2.  Modify the program to print the approximate year the user was born. You can do this by taking the current year (2025) and subtracting the user's age.
+2.  Modify the program to approximate the user's date of birth.
+    You can do this by taking the current year (2025) and subtracting the user's age.
+    Print the result.
 
 """
 
